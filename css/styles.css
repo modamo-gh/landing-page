@@ -1,18 +1,26 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
 }
 
 .header {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo,
+h1 {
+    color: #F9FAF8;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -21,7 +29,31 @@ ul {
     gap: 16px;
 }
 
-a {
+a,
+p {
     color: #E5E7EB;
+}
+
+a {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.left,
+img {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img {
+    height: 100vh;
 }
