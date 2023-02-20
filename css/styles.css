@@ -4,7 +4,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -15,7 +16,8 @@ body {
 }
 
 .logo,
-h1 {
+h1,
+.footer {
     color: #F9FAF8;
 }
 
@@ -56,4 +58,11 @@ h1 {
 
 img {
     height: 100vh;
+}
+
+.footer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
