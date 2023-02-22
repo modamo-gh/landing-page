@@ -29,6 +29,7 @@ h1,
 ul {
     display: flex;
     gap: 16px;
+    list-style-type: none;
 }
 
 a,
