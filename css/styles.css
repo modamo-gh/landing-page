@@ -57,6 +57,16 @@ h1 {
     font-weight: bolder;
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border: none;
+}
+
 img {
     height: 100vh;
 }
